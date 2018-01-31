@@ -1,0 +1,20 @@
+Task 1: Load the iris_dataset in your program in a python dataframe. View the First 5 and Last 3 row items of that dataframe. 
+
+Task 2: Show the data items in a sorted manner, sorted by 'Petal Length'
+
+Task 3: Group data items by Species Name, calculate the mean for each of the 4 columns for each group, save them in a new dataframe and print
+
+	Output-
+
+		Species Name	MSL	MSW	MPL	MPW
+		----------	---	---	---	---
+		Setosa		5.006	3.418	1.464	0.244
+		Versicolor	5.936	2.770	4.260	1.326
+		Virginica	6.588	2.974	5.552	2.026
+
+Task 4: Plot Sepal_length VS Sepal_width in a Scatter Plot, and Petal_length VS Petal_width in another scatter plot. Use subplot to plot this two plots in a single 
+plot. Different class points will have different color [Setosa = Red, Versicolor = Green, Virginica = Blue]
+
+Task 5: Add a new column to the end of the dataframe, called 'Calyx Width'. If the flower's Sepal_length is < 5, 'Calyx Width' value will be 0, otherwise the value 
+will be 1. Also plot the Histogram of 'Sepal Length' column. 
+  
